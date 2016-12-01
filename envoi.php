@@ -3,7 +3,7 @@
     $name = $_POST["name"]; 
     $firstname= $_POST['firstname']; 
     $mail= $_POST['email']; 
-    $bject= $_POST['object']; 
+    $object= $_POST['object']; 
     $message = $_POST['message']; 
 
     /* Sending e-mail with setting */
