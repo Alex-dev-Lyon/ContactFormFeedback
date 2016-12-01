@@ -36,10 +36,11 @@
                 <form action="envoi.php" method="post" enctype="application/x-www-form-urlencoded" name="contact" class="col-d-8 col-m-2 formContact">
                     <h2 class=" txt-center">Contact</h2>
                     <div class="grid">
-                        <fieldset class="col-m-2">                                
+                        <fieldset class="col-m-2"> 
+                            <legend>Identification</legend>                               
                             <div class="grid ">
                                 <p class="col-m-2 col-d-6">
-                                    <label class="required" for="lastname">Name</label>
+                                    <label class="required" for="name">Name</label>
                                     <input id="name" type="text" name="name" placeholder="Your name *" required>
                                 </p>
                                 <p class="col-m-2 col-d-6">
@@ -52,11 +53,12 @@
                                 </p>
                             </div>
                         </fieldset>
-                        <fieldset class="col-m-2">                                
+                        <fieldset class="col-m-2">  
+                            <legend>Message</legend>                               
                             <div class="grid ">
                                 <p class="col-m-2 col-d-6">
-                                    <label for="object">Object</label>
-                                    <input id="object" type="text" name="object" placeholder="Object *" required>
+                                    <label for="object">Subject *</label>
+                                    <input id="object" type="text" name="object" placeholder="Subject *" required>
                                 </p>
                                 <p class="col-m-2">
                                     <label for="message">Message</label>

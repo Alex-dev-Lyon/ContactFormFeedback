@@ -3,7 +3,7 @@
     $name = $_POST["name"]; 
     $firstname= $_POST['firstname']; 
     $mail= $_POST['email']; 
-    $object= $_POST['object']; 
+    $bject= $_POST['object']; 
     $message = $_POST['message']; 
 
     /* Sending e-mail with setting */
@@ -61,7 +61,7 @@
             <div class="wrap mts mbs">  
                 <div class="col-d-8 col-m-2">
                     <?php
-                    /* Mail display */
+                    /* E-mail display */
                         if (mail($destinataire,$subject,$body,$headers)) { 
                             echo '<h2 class=" txt-center">Your e-mail has been sent</h2>'
                             .'<div class="grid">'
